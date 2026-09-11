@@ -1,0 +1,11 @@
+# Source-only allowlist: original and patched binaries must stay local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/UPSTREAM-NOTICE.md
+!/TECHNICAL-NOTES.md
+!/CHANGELOG.md
+!/requirements-test.txt
+!/patch_scanner.py
+!/test_scanner_patch.py
