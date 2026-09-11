@@ -18,8 +18,11 @@ the direct evidence used here, not a claim about newly verified online terms.
 
 Only the independent patch tooling, tests, and documentation belong in this
 repository. Neither the original nor patched executable, original resources,
-language files, full original manuals, private logs, nor user screenshots are
-included. Users must supply their own supported executable.
+language files, full original manuals, nor private logs are included. The README
+includes one screenshot supplied by the maintainer for publication, with no
+personal file paths visible. Users must supply their own supported executable.
+The original Scanner interface shown in that screenshot remains attributable
+to Steffen Gerlach and is not relicensed under this project's MIT license.
 
 The project's MIT license applies only to its independently authored material.
 It does not relicense Scanner or grant rights in the upstream program. Obtain

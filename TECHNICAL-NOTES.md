@@ -116,4 +116,6 @@ clusters, and 4,096 bytes per cluster. For its used count:
 Additional checks validate the unofficial string, its Delphi header, its
 relocation entry and relocated pointer, and rejection of invalid/already-patched
 inputs. Real-drive success is user-reported for the arithmetic-only build;
-the newly labeled build has structural checks but no recorded visual verification.
+the maintainer's published screenshot also confirms the new version label is
+visible in the running application. This visual check covers the pictured
+window size, not every possible size or display scaling setting.

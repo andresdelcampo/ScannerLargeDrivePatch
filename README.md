@@ -1,13 +1,16 @@
 # Scanner 2.13 large-drive chart patch
 
-Repository: [andresdelcampo/ScannerLargeDrivePatch](https://github.com/andresdelcampo/ScannerLargeDrivePatch)
-
 A small, unofficial patch for Steffen Gerlach's Scanner 2.13 disk-usage
 visualizer. It fixes two signed-integer conversions that can distort or hide
 large segments of the sunburst chart.
 
 This repository contains the patcher and its tests, **not Scanner itself**.
 It is not affiliated with or endorsed by Scanner's original author.
+
+![Scanner 2.13 unofficial patch 1 showing the corrected sunburst chart on a 12 TB drive](scanner-screenshot.png)
+
+*Patched Scanner on a 12 TB drive, displaying 10.9 TBytes in binary units.
+The unofficial version label is visible at the bottom right.*
 
 ## Apply the patch
 
@@ -57,9 +60,10 @@ apparent chart placement can also be affected by erroneous parent angles.
 The arithmetic correction passed 124 emulated x86 cases and was reported
 working by a user on a real 12 TB drive. The supplied before/after screenshots
 show a corrected chart, while both display 1.19 TBytes for the selected file
-and 10.9 TBytes for the drive total. The screenshots are not included because
-they contain personal file paths. The later version-label addition has separate
-structural checks; it was not part of that user's runtime comparison.
+and 10.9 TBytes for the drive total. Those original comparison screenshots are
+not included because they contain personal file paths. The maintainer supplied
+the screenshot above separately for publication; it also confirms that the
+unofficial version label is visible in the running application.
 
 **This is not unlimited large-drive support.** With 4 KiB clusters, the original
 32-bit storage counters still wrap at 16 TiB (approximately 17.6 TB). Other

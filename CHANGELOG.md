@@ -18,3 +18,5 @@
 - Prepare source-only distribution with a scoped MIT license.
 - Document the repository at https://github.com/andresdelcampo/ScannerLargeDrivePatch
   and credit development assistance from GPT 6 Astra.
+- Include a maintainer-supplied screenshot of the corrected chart and visible
+  unofficial version label, without personal file paths.
