@@ -100,3 +100,5 @@ Unofficial patch project: [andresdelcampo](https://github.com/andresdelcampo).
 Made with GPT 6 Astra, with analysis, patch development, and automated
 verification assisted by the model and real-drive testing performed by the
 project maintainer.
+
+For more of my projects, visit [Software Workshop](https://andresdelcampo.github.io/software-showcase/).
